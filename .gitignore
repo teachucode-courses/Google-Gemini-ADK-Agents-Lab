@@ -1,0 +1,13 @@
+# Python virtual environments
+.venv/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Allow safe environment template files
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
