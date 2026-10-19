@@ -1,0 +1,5 @@
+# pip install google-adk
+google-adk 
+
+# pip install python-dotenv
+python-dotenv 
