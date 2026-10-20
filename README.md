@@ -1,2 +1,2 @@
-# Google-Gemini-ADK-Agents-Lab
+# Google-Gemini-ADK-Agents-Labs
 Google-Gemini-Lab
