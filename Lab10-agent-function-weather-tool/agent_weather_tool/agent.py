@@ -18,11 +18,11 @@ def get_weather(city: str) -> dict:
     """
     # Mock weather data
     mock_data = {
-        "Toronto": {"report": "Sunny, 72°F. Light breeze from the west."},
-        "New York": {"report": "Cloudy, 59°F. Chance of rain in the evening."},
-        "London": {"report": "Clear skies, 68°F. Humidity at 45%."},
-        "Paris": {"report": "Partly cloudy, 65°F. Pleasant conditions."},
-        "Sydney": {"report": "Warm, 82°F. UV index is high."},
+        "Toronto": {"report": "Sunny, 72°F (22°C). Light breeze from the west."},
+        "New York": {"report": "Cloudy, 59°F (15°C). Chance of rain in the evening."},
+        "London": {"report": "Clear skies, 68°F (20°C). Humidity at 45%."},
+        "Paris": {"report": "Partly cloudy, 65°F (18°C). Pleasant conditions."},
+        "Sydney": {"report": "Warm, 82°F (28°C). UV index is high."},
     }
     key = city.strip().title()
     if key in mock_data:
