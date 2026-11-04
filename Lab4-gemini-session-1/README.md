@@ -27,4 +27,4 @@ OPENAI_API_KEY="your-openai-api-key"
 python agent.py
 ```
 # Note
-Agent accepts model as a string. ADK sees "openai/gpt-4" and uses its model registry to resolve the openai/ provider to its LiteLlm adapter. That adapter then calls LiteLLM, which routes the request to OpenAI. So the code doesn’t explicitly import or instantiate LiteLlm, but installing litellm lets ADK load and use it behind the scenes.
+Agent accepts model as a string. ADK sees "openai/gpt-5" and uses its model registry to resolve the openai/ provider to its LiteLlm adapter. That adapter then calls LiteLLM, which routes the request to OpenAI. So the code doesn’t explicitly import or instantiate LiteLlm, but installing litellm lets ADK load and use it behind the scenes.
