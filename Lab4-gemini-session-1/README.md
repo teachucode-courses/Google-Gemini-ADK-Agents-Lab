@@ -1,4 +1,4 @@
-# Lab 3 - Using OpenAI GPT-4 with ADK
+# Lab 4 - Using OpenAI GPT-4 with ADK
 
 Run an ADK agent backed by OpenAI's GPT-4 via LiteLLM.
 
