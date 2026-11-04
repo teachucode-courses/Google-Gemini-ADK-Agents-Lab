@@ -6,7 +6,10 @@ Run an ADK agent backed by OpenAI's GPT-4 via LiteLLM.
 
 ```bash
 python -m venv .venv
+# Mac
 source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
 pip install -r requirements.txt
 ```
 

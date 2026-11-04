@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 # --- Step 1: Define the Agent ---
 agent = Agent(
     name="helpful_agent",
-    model="openai/gpt-4",
+    model="openai/gpt-5",
     description="A helpful assistant that answers user questions.",
     instruction="You are a friendly and concise assistant. Answer user questions clearly.",
 )
