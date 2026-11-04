@@ -1,3 +1,4 @@
+# pip install -r requirement.txt
 google-adk
 litellm
 openai
