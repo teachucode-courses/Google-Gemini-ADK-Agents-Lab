@@ -8,7 +8,7 @@ load_dotenv()
 warnings.filterwarnings("ignore")
 
 # 2. Define the OpenAI Model via LiteLLM
-openai_llm = LiteLlm(model="openai/gpt-4") 
+openai_llm = LiteLlm(model="openai/gpt-5") 
 
 # 3. Define the Agent as 'root_agent' so the CLI can find it
 root_agent = Agent(
