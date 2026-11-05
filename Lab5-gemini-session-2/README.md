@@ -1,4 +1,4 @@
-# Lab 4 - Using a Local LLM with Ollama
+# Lab 5 - Using a Local LLM with Ollama
 
 Run an ADK agent backed by a local Ollama model via LiteLLM.
 
@@ -9,7 +9,7 @@ Run an ADK agent backed by a local Ollama model via LiteLLM.
 ## Pull the Model
 
 ```bash
-ollama pull phi
+ollama pull llama3
 ```
 
 ## Setup

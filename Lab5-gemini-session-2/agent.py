@@ -14,7 +14,7 @@ load_dotenv()
 # --- Step 1: Define the Agent ---
 agent = Agent(
     name="helpful_agent",
-    model=LiteLlm(model="ollama/phi:latest"),
+    model=LiteLlm(model="ollama/llama3"),
     description="A helpful assistant that answers user questions.",
     instruction="You are a friendly and concise assistant. Answer user questions clearly and only respond to the questions asked in one sentence.",
 )
