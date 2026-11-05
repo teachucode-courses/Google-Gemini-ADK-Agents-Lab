@@ -1,1 +1,1 @@
-ollama pull phi
+ollama pull llama3
