@@ -1,0 +1,4 @@
+google-adk
+python-dotenv
+beautifulsoup4 # For parsing HTML content
+requests # For downloading web pages
