@@ -1,0 +1,14 @@
+# Install these Python packages from the project root:
+#   python -m pip install -r requirements.txt
+google-adk
+mcp
+python-dotenv
+
+# Install Node.js LTS from PowerShell or Command Prompt (includes npm and npx):
+#   winget install --id OpenJS.NodeJS.LTS --exact
+# Restart the terminal after installation. The agent uses npx to download and
+# launch @modelcontextprotocol/server-filesystem; no separate install is needed.
+# Check that Node.js, npm, and npx are available:
+#   node --version
+#   npm --version
+#   npx --version
