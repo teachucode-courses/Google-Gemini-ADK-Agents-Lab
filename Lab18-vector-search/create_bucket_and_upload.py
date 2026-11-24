@@ -2,14 +2,14 @@ import os
 from google.cloud import storage
 
 # 1. Configuration
-PROJECT_ID = "jovial-coral-423517-h8"
+PROJECT_ID = "Your-Project-ID"
 LOCATION = "us-central1"
-BUCKET_NAME = "tuc-vector-search-bucket-1"
-BLOB_NAME = "books.txt"
+BUCKET_NAME = "Your-Bucket-Name"
+BLOB_NAME = "your-file.txt"
 
 # Path to books.txt in the same folder
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-LOCAL_FILE_PATH = os.path.join(CURRENT_DIR, "books.txt")
+LOCAL_FILE_PATH = os.path.join(CURRENT_DIR, "your-file.txt")
 
 # 2. Initialize Cloud Storage Client
 storage_client = storage.Client(project=PROJECT_ID)
